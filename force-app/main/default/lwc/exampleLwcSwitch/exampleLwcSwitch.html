@@ -1,0 +1,15 @@
+<template>
+    <button onclick={handleclick}> Change Value </button>
+
+    <c-lwc-switch expression="this.a" scope={scope}>
+        <c-lwc-case value="4">
+            <div>44444444444444444444</div>
+        </c-lwc-case>
+        <c-lwc-case value="5">
+            <div>55555555555555555555555555</div>
+        </c-lwc-case>
+        <c-lwc-case default>
+            <div>DEFAAAAAAAAAAAULTTTTTTTTTTT</div>
+        </c-lwc-case>
+    </c-lwc-switch>
+</template>
